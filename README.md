@@ -46,6 +46,7 @@ weather-jornal-app
 * [Javascript](https://www.javascript.com/) - Manage programming side of the project
 * [Css](https://www.w3.org/Style/CSS/Overview.en.html) - Make website design and colors
 * [Nodejs](https://nodejs.org/en/) - Used to make virtual server and run application
+* [Themezy](https://www.themezy.com/demos/128-steel-weather-free-responsive-website-template) - Application theme
 
 ## Versioning
 
