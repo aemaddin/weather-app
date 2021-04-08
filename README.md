@@ -7,13 +7,20 @@ API. using `html`, `javascript`, `css` and `Nodejs`.
 
 ## Getting Started
 
-first you need to install npm packages by run this command in terminal or command prompt
+- Clone project from [Github](https://github.com/aemaddin/weather-app) by download it or:
+
+```bash
+git clone git@github.com:aemaddin/weather-app.git
+  ```
+
+- Open project folder on `terminal` or `command prompt`.
+- Install npm packages by run this command.
 
 ```bash
 npm install
 ```
 
-after installed all packages you need to start the server
+- Start the server.
 
 ```bash
 node server.js
