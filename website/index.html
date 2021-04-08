@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Journal</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap" rel="stylesheet">
+    <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Loading main css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+    <div class="site-content">
+        <div class="site-header">
+            <div class="container">
+                <a href="index.html" class="branding">
+                    <img src="images/logo.png" alt="" class="logo">
+                    <div class="logo-type">
+                        <h1 class="site-title">Weather Journal App</h1>
+                        <small class="site-description">How are you feeling today?</small>
+                    </div>
+                </a>
+
+                <!-- Default snippet for navigation -->
+                <div class="main-navigation">
+                    <button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+                    <ul class="menu">
+                        <li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
+                    </ul> <!-- .menu -->
+                </div> <!-- .main-navigation -->
+
+                <div class="mobile-navigation"></div>
+            </div>
+        </div> <!-- .site-header -->
+
+        <div class="hero" data-bg-image="images/banner.png" style="background-image: url('images/banner.png');">
+            <div class="container">
+                <form method="post" action="javascript:void(0)">
+                    <div class="find-location">
+                        <input id="zip" type="text" placeholder="Enter Zipcode here...">
+                        <!--                        <input id="feelings" type="text" placeholder="Enter your feelings here">-->
+                        <input id="generate" type="submit" value="Generate">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="forecast-table">
+            <div class="container">
+                <div class="forecast-container">
+                    <div class="today forecast">
+                        <div class="forecast-header">
+                            <div id="day" class="day">Day</div>
+                            <div id="month" class="date">Month</div>
+                        </div> <!-- .forecast-header -->
+                        <div class="forecast-content">
+                            <div id="location" class="location">City Name</div>
+                            <div class="degree">
+                                <div id="temp" class="num">Temp</div>
+                                <div class="forecast-icon">
+                                    <img id="weather_icon" src="images/icons/icon-1.svg" alt="" width=90>
+                                </div>
+                            </div>
+                            <span id="humidity"><img src="images/icon-humidity.png" alt="" title="humidity">Humidity</span>
+                            <span id="wind"><img src="images/icon-wind.png" alt="wind_icon" title="wind speed">Wind Speed</span>
+                            <span id="compass"><img src="images/icon-compass.png" alt="icon-wind-direction" title="wind direction">Wind Direction</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="app.js" type="text/javascript"></script>
+
+</body>
+</html>
