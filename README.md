@@ -1,10 +1,9 @@
+<img width="1437" alt="weather application" src="https://user-images.githubusercontent.com/11630742/114051846-c18d3680-988d-11eb-962c-9ffa778d9ea7.png">
+
 # Weather-Journal App Project
 
 Weather Journal App is a web application that make you get weather from [OpenWeatherMap](https://openweathermap.org)
 API. using `html`, `javascript`, `css` and `Nodejs`.
-
-## Screens
-<img width="1437" alt="weather application" src="https://user-images.githubusercontent.com/11630742/114051846-c18d3680-988d-11eb-962c-9ffa778d9ea7.png">
 
 ## Getting Started
 
