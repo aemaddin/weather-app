@@ -28,7 +28,11 @@ node server.js
 
 after that you will see that project will be started on http://localhost:8000
 
-### Prerequisites
+## How to use
+
+- You can use application by enter your country zip code ex:`94040` and press `generate` button
+
+## Prerequisites
 
 - This project based on `Nodejs`, so you need to make sure that you installed nodejs on you machine, for more
   information please visit [Nodejs](https://nodejs.org/en/) website
